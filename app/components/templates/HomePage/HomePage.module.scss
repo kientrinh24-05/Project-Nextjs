@@ -1,0 +1,20 @@
+@import 'app.scss';
+
+.content {
+  grid-column: span 12;
+  text-align: center;
+
+  @include breakpoint('md') {
+    grid-column: 3 / 11;
+  }
+
+  @include breakpoint('xl') {
+    grid-column: 4 / 10;
+  }
+
+  .action-btn {
+    button {
+      margin-left: 10px;
+    }
+  }
+}
