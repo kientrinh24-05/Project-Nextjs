@@ -1,7 +1,7 @@
 {
-  "name": "CRUD Nextjs",
+  "name": "cr-fe",
   "version": "0.1.0",
-  "author": "Duy Kien",
+  "author": "TMA Solutions",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
